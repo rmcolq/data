@@ -35,11 +35,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-04-13
+## Tael
+### Added
+* Payload keys targeted by `--envreq` are copied through to the output payload if `--envprefix` has not been provided. `--envprefix` still copies all payload keys to the output with the specified prefix.
+
+### Changed
+* Payload keys that will be passed through to the `finished` output payload will also be emitted in the `start` ouput payload
+
+***
+
 # 2021-04-12
 ## Majora API
 ### Changed
 * [`ION_TORRENT` added to `instrument_make` validator](https://github.com/COG-UK/dipi-group/issues/46)
 * [`103` added to `collection_pillar` validator](https://github.com/COG-UK/dipi-group/issues/48)
+
+## Tael
+### Added
+* `--payload-passthrough` parameter allows keys from the input payload to be automatically copied to the `finished` output payload
 
 ***
 
