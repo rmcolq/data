@@ -18,5 +18,5 @@ maintainer: samstudio8
 * Genome table is now delivered with `gzip` compression
 
 ### See also
-* Fields added to Genome table https://github.com/COG-UK/dipi-group/issues/37
-* Compress Asklepian tables https://github.com/COG-UK/dipi-group/issues/43
+* [Fields added to Genome table](https://github.com/COG-UK/dipi-group/issues/37)
+* [Compress Asklepian tables](https://github.com/COG-UK/dipi-group/issues/43)
