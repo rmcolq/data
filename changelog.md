@@ -5,8 +5,8 @@ date_published: 2021-04-22 14:00:00 +0000
 date_modified:  2021-04-22 14:00:00 +0000
 author: samstudio8
 maintainer: samstudio8
-page_logo: assets/dipi-patch.png
-page_logo_alt: CLIMB-COVID DIPI Mission Patch
+logo: assets/dipi-patch.png
+logo_alt: CLIMB-COVID DIPI Mission Patch
 ---
 
 # 2021-04-21
