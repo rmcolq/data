@@ -9,11 +9,12 @@ logo: assets/dipi-patch.png
 logo_alt: CLIMB-COVID DIPI Mission Patch
 ---
 
-All notable changes to CLIMB-COVID data or interchange formats should be documented in this file.
-Updates that affect how data is delivered to users or other pipelines encouraged.
-Currently the following DIPI projects are routinely using this CHANGELOG:
+All notable changes to CLIMB-COVID data or interchange formats that have impact to users or other pipelines should be documented in this file.
+Changes described here may only be a subset of all changes to a project as this log concerns itself only with changes that impact how data is provided or consumed by users or other pipelines.
+The following DIPI projects are routinely using this CHANGELOG.
 
 * `Majora API` -- metadata APIs
+* `Ocarina` -- Majora command line client ([Full changelog](https://github.com/SamStudio8/ocarina/blob/master/CHANGELOG.md))
 * `Elan` -- inbound data pipeline
 * `Tael` -- MQTT messaging tools
 * `Asklepian` -- Outbound PHE pipeline
