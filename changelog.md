@@ -35,7 +35,7 @@ maintainer: samstudio8
 
 ***
 
-# 2021-04-12
+# 2021-03-18
 ## Majora API
 ### Changed
 * [`THERMO_AMPLITUDE` added to Ct `test_platform` validator](https://github.com/COG-UK/dipi-group/issues/36)
