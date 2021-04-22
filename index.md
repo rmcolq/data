@@ -1,3 +1,3 @@
-## Hoot
+## Data Announcements
 
-* Hoot
+* [CLIMB-COVID Data Changelog](changelog)
