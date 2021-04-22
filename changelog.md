@@ -9,6 +9,19 @@ logo: assets/dipi-patch.png
 logo_alt: CLIMB-COVID DIPI Mission Patch
 ---
 
+All notable changes to CLIMB-COVID codebases should be documented in this file.
+Updates that affect how data is delivered to users or other pipelines encouraged.
+Currently the following DIPI projects are routinely using this CHANGELOG:
+
+* `Majora API` -- metadata APIs
+* `Elan` -- inbound data pipeline
+* `Tael` -- MQTT messaging tools
+* `Asklepian` -- Outbound PHE pipeline
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+***
+
 # 2021-04-21
 ## Asklepian
 ### Added
