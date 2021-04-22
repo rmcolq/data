@@ -21,10 +21,10 @@ Currently the following DIPI projects are routinely using this CHANGELOG:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
-# 2021-04-22
+# 2021-04-23
 ## Asklepian
 ### Changed
-* [Genome table `Sequence` field is populated with MSA genome sequence rather than consensus sequence](https://github.com/COG-UK/dipi-group/issues/61), taking affect 2021-04-23.
+* [Genome table `Sequence` field is populated with MSA genome sequence rather than consensus sequence](https://github.com/COG-UK/dipi-group/issues/61)
 
 ***
 
