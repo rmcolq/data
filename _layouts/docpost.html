@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<small>Updated {{ page.date_modified | date: "%Y-%m-%d" }} by @{{ page.maintainer }}</small>
+<h1>{{ page.title }}</h1>
+
+{{content}}
+
+<hr>
+<span style="font-size:0.8em;">
+Published {{ page.date_published | date: "%Y-%m-%d" }}. Updated {{ page.date_modified | date: "%Y-%m-%d" }}. Page maintainer @{{ page.maintainer }}.
+</span>
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
