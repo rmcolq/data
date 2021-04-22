@@ -15,8 +15,8 @@
     <div class="wrapper">
       <header>
        
-        {% if page_logo %}
-          <img src="{{page_logo | relative_url}}" alt="{{page_logo_alt}}" width="200px" style="margin: 0 0 20px 0" />
+        {% if page.logo %}
+          <img src="{{page.logo | relative_url}}" alt="{{page.logo_alt}}" width="200px" style="margin: 0 0 20px 0" />
         {% elsif site.logo %}
           <img src="{{site.logo | relative_url}}" alt="{{site.logo_alt}}" width="200px" style="margin: 0 0 20px 0" />
         {% endif %}
