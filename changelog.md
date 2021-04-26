@@ -79,6 +79,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 # 2021-03-06
+## DIPI
+### Added
+* Introduced this CHANGELOG to track notable changes to data and pipeline interchange formats. Significant changes before this date are out of the scope of this CHANGELOG.
+
 ## Elan
 ### Changed
 * [Elan will now start at 6am each day and finish in the afternoon](https://github.com/COG-UK/dipi-group/issues/31).
