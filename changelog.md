@@ -42,6 +42,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-04-16
+## CLIMB-COVID
+### Added
+* [CLIMB-COVID Status Page](https://status.covid19.climb.ac.uk/) is now automatically updated every day
+
+***
+
 # 2021-04-13
 ## Tael
 ### Added
