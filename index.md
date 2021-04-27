@@ -6,3 +6,4 @@
 ## Service information
 
 * [CLIMB-COVID Status](https://status.covid19.climb.ac.uk/)
+* [Manual pipeline intervention reports](https://github.com/COG-UK/dipi-group/issues?q=label%3Acontrol)
