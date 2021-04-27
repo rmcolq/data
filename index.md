@@ -1,6 +1,7 @@
 ## Data announcements
 
-* [CLIMB-COVID Data Changelog](changelog)
+* [CLIMB-COVID APIs, data and interchange formats Changelog](changelog)
+* [DIPI Group Data Incident Reports](https://github.com/COG-UK/dipi-group/tree/official/postmortems)
 
 ## Service information
 
