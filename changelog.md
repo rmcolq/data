@@ -2,7 +2,7 @@
 layout: docpost
 title: CLIMB-COVID Data Changelog
 date_published: 2021-04-22 14:00:00 +0000
-date_modified:  2021-04-22 14:00:00 +0000
+date_modified:  2021-05-02 13:00:00 +0000
 author: samstudio8
 maintainer: samstudio8
 logo: assets/dipi-patch.png
@@ -20,6 +20,15 @@ The following DIPI projects are routinely using this CHANGELOG.
 * `Asklepian` -- Outbound PHE pipeline
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+***
+# 2021-05-02
+## Tael
+### Added
+* `mqtt-client.py` automatically subscribes clients to a "control topic" of the format `COGUK/infrastructure/pipelines/<who>/control`
+* Pipelines can now be manually raised by sending messages to the client control topic, specfying an `action` key with the value of `raise`
+### Changed
+* The `started` message emitted by `mqtt-client.py` now includes a `reason` key, explaining why the pipeline has started
 
 ***
 # 2021-04-23
