@@ -25,8 +25,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # 2021-05-02
 ## Tael
 ### Added
-* `mqtt-client.py` automatically subscribes clients to a "control topic" of the format `COGUK/infrastructure/pipelines/<who>/control`
+* `mqtt-client.py` automatically subscribes clients to a "control topic" named `COGUK/infrastructure/pipelines/<who>/control`, where `who` is the name of the pipeline provided to `--who`
 * Pipelines can now be manually raised by sending messages to the client control topic, specfying an `action` key with the value of `raise`
+
 ### Changed
 * The `started` message emitted by `mqtt-client.py` now includes a `reason` key, explaining why the pipeline has started
 
