@@ -32,6 +32,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * The `started` message emitted by `mqtt-client.py` now includes a `reason` key, explaining why the pipeline has started
 
 ***
+# 2021-04-30
+## Datapipe
+### Changed
+* Updated minimap2 sequence divergence threshold preset from 5% to 20% divergence as increasing numbers of (primarily GISAID) sequences were being lost from the MSA
+* Passes `uk_lineage` metadata column through from previous datapipe run for use by phylopipe
+
+***
 # 2021-04-23
 ## Asklepian
 ### Changed
