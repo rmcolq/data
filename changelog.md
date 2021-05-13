@@ -25,7 +25,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # 2021-05-13
 ## Datapipe
 ### Changed
-* Commas in metadata fields temporarily replaced with underscores for todays repeat of the run. Further update to handle with quotation marks instead for subsequent runs
+* Commas in metadata fields temporarily replaced with underscores for todays repeat of the run. Further update to handle with quotation marks instead for subsequent runs. See https://github.com/COG-UK/dipi-group/issues/72 for more information.
 
 
 ***
