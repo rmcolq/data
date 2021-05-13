@@ -22,6 +22,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-05-13
+## Datapipe
+### Changed
+* Commas in metadata fields temporarily replaced with underscores for todays repeat of the run. Further update to handle with quotation marks instead for subsequent runs
+
+
+***
 # 2021-05-02
 ## Tael
 ### Added
