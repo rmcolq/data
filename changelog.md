@@ -22,6 +22,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-05-14
+## Tael
+### Fixed
+* [Patched](https://github.com/SamStudio8/elan-nextflow/commit/1ae6b713284130eb1ae1304c8416153bd10d4e7f) a regression in `mqtt-client.py` that caused clients not requiring any environment variables (`--envreq`) to silently fail to start their specified command
+    * **Clients not specifying `--envreq` should be restarted as soon as possible**
+
+***
 # 2021-05-02
 ## Tael
 ### Added
