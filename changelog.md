@@ -18,8 +18,15 @@ The following DIPI projects are routinely using this CHANGELOG.
 * `Elan` -- inbound data pipeline
 * `Tael` -- MQTT messaging tools
 * `Asklepian` -- Outbound PHE pipeline
+* `CLIMB-COVID` -- metaprojects (eg. status page, data page)
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+***
+# 2021-05-18
+## CLIMB-COVID
+### Added
+* Added [data site](https://data.covid19.climb.ac.uk/) link to accession table ([#63](https://github.com/COG-UK/dipi-group/issues/63))
 
 ***
 # 2021-05-14
