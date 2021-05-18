@@ -6,6 +6,7 @@
 * [Latest COG+GISAID global tree NEWICK](https://cog-uk.s3.climb.ac.uk/phylogenetics/latest/cog_global_tree.newick)
 * [Protocols (cogconsortium.uk)](https://www.cogconsortium.uk/tools-analysis/public-data-analysis/)
 * [Other tools and data (cogconsortium.uk)](https://www.cogconsortium.uk/tools-analysis/public-data-analysis-2/)
+* [COG-UK Majora, GISAID and ENA accession linkage](https://cog-uk.s3.climb.ac.uk/accessions/latest.tsv)
 
 ## Data announcements
 
