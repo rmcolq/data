@@ -23,6 +23,14 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-05-26
+## Datapipe
+### Changed
+* Renames metadata column `pillar_2` to `is_pillar_2` and changes value from True/False to Y/N to be consistent with incoming boolean columns
+* Adds columns to consortium metadata
+* Creates new metadata output `metadata/cog_global_<date>_epidemiology.csv` with a requested subset of columns with epi information in
+
+***
 # 2021-05-18
 ## CLIMB-COVID
 ### Added
