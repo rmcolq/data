@@ -21,6 +21,7 @@ The following DIPI projects are routinely using this CHANGELOG.
 * `CLIMB-COVID` -- metaprojects (eg. status page, data page)
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
 ***
 # 2021-05-31
 ## Datapipe
