@@ -50,6 +50,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Fixed
 * [Patched](https://github.com/SamStudio8/elan-nextflow/commit/1ae6b713284130eb1ae1304c8416153bd10d4e7f) a regression in `mqtt-client.py` that caused clients not requiring any environment variables (`--envreq`) to silently fail to start their specified command
     * **Clients not specifying `--envreq` should be restarted as soon as possible**
+
 ## Phylopipe
 ### Added
 * Beta release of phylopipe2.0 published daily
