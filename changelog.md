@@ -23,6 +23,16 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-06-01
+## Majora
+### Changed
+* Users with the `force_add_biosampleartifact` scope can now add `sender_sample_id` to blank biosamples created through the `biosample.addempty` endpoint
+
+## Ocarina
+### Changed
+* Ocarina 0.40.2 `ocarina empty biosample` now takes an additional `--sender-sample-id` option ([Ocarina Changelog](https://github.com/SamStudio8/ocarina/blob/master/CHANGELOG.md#0402-2021-05-25))
+
+***
 # 2021-05-31
 ## Datapipe
 ### Changed
