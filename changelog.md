@@ -27,6 +27,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## Majora
 ### Changed
 * Users with the `force_add_biosampleartifact` scope can now add `sender_sample_id` to blank biosamples created through the `biosample.addempty` endpoint ([Majora biosample.addempty docs](https://samstudio8.github.io/majora-docs/#add-one-or-more-empty-biosamples-to-majora))
+* Existing biosample artifacts that were collected and/or received more than a year ago can now be updated through the metadata uploader, or Ocarina (without `--partial`) as the past-date checks are now skipped for existing data
+    * This does not change the behaviour of `collection_date` or `received_date` from over 365 days ago being rejected for new samples
+    * `collection_date` and `received_date` set to a future date are still rejected regardless of whether the sample exists or not
 
 ## Ocarina
 ### Changed
