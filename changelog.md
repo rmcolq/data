@@ -28,16 +28,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 * Started performing geography cleaning of all adm1s (largely global cleaning)
 
-## Phylopipe2.0
-### Changed
-* Makes civet output directories identical to previous except for explicitly containing "public" or "private" in file names
-* Adds additional masking before usher updates at sites which are known to cause usher problems placing on a tree
-* Fixed phylotyping bug (change to `clusterfunk`)
-* Will be published to `latest` and today's phylopipe1 output when it completes in 2 days time will be published to `old`
-
-
-***
-# 2021-06-01
 ## Majora
 ### Changed
 * Users with the `force_add_biosampleartifact` scope can now add `sender_sample_id` to blank biosamples created through the `biosample.addempty` endpoint ([Majora biosample.addempty docs](https://samstudio8.github.io/majora-docs/#add-one-or-more-empty-biosamples-to-majora))
@@ -48,6 +38,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## Ocarina
 ### Changed
 * Ocarina 0.40.2 `ocarina empty biosample` now takes an additional `--sender-sample-id` option ([Ocarina Changelog](https://github.com/SamStudio8/ocarina/blob/master/CHANGELOG.md#0402-2021-05-25))
+
+## Phylopipe2.0
+### Changed
+* Makes civet output directories identical to previous except for explicitly containing "public" or "private" in file names
+* Adds additional masking before usher updates at sites which are known to cause usher problems placing on a tree
+* Fixed phylotyping bug (change to `clusterfunk`)
+* Will be published to `latest` and today's phylopipe1 output when it completes in 2 days time will be published to `old`
 
 ***
 # 2021-05-31
