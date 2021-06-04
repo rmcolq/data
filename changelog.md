@@ -23,6 +23,14 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-06-04
+## Asklepian
+### Changed
+* [Variant table is now delivered to PHA with `gzip` compression](https://github.com/COG-UK/dipi-group/issues/37)
+    * Variant table will be inflated at the usual `results/variants/latest` location for downstream consumption
+    * No action by CLIMB-COVID users is required for continuity
+
+***
 # 2021-06-01
 ## Datapipe
 ### Changed
