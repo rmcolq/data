@@ -23,6 +23,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-06-10
+## Majora
+### Changed
+* Users with the `force_add_biosampleartifact` scope can now add `sender_sample_id` to blank biosamples created through the `biosample.addempty` endpoint ([Majora biosample.addempty docs](https://samstudio8.github.io/majora-docs/#add-one-or-more-empty-biosamples-to-majora)), regardless of whether the sample was previously added by `addempty` before
+    * This does not change existing behaviour that prevents samples that have been "filled in" with full metadata via `biosample.add` from being modified by `biosample.addempty` 
+
+***
 # 2021-06-01
 ## Datapipe
 ### Changed
