@@ -23,6 +23,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+
+# 2021-06-21
+## CLIMB-COVID
+### Changed
+* Files and directories in user upload dirs (`climb-covid19-user/upload`) will be periodically scanned and deleted if they are more than a week old.
+
+***
 # 2021-06-10
 ## Majora
 ### Changed
