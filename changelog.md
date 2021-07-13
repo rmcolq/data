@@ -24,6 +24,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-07-13
+## datapipe
+### Changed
+* Now runs `gofasta updown list` and creates output files for CIVET3
+
+***
+
+# 2021-07-07
+## datapipe
+### Changed
+* Adds a metadata output to `cog/UTLA_genome_counts_<date>.csv`
+* Excludes samples labelled to omit when the `why_excluded` column is not in published metadata output to avoid mysterious duplicate rows
+    
+***
+
 # 2021-06-21
 ## CLIMB-COVID
 ### Changed
