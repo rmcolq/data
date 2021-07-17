@@ -24,6 +24,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-07-17
+## Tael
+### Changed
+* `mqtt-message` automatically adds `ts` key to payloads, containing the UNIX epoch time
+    * Recommended that users no longer use the `date` and `time` fields for anything other than human readability
+
+***
+
 # 2021-07-13
 ## datapipe
 ### Changed
