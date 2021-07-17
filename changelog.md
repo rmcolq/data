@@ -25,6 +25,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ***
 
 # 2021-07-17
+## Majora
+### Changed
+* Majora will no longer accept a `collection_date` or `received_date` for a biosample where the year is not 2020 or higher, regardless of whether the biosample is being added or updated
+
 ## Tael
 ### Changed
 * `mqtt-message` automatically adds `ts` key to payloads, containing the UNIX epoch time
