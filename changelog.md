@@ -24,6 +24,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-08-05
+## Asklepian
+### Changed
+* To improve performance, the MSA generation algorithm will be swapped from `datafunk` to `gofasta`.
+* Users should be aware (but not concerned) of a small impact to the integrity of 14 sequences in the MSA (and downstream Asklepian tables).
+    * See the accompanying [change advisory notice](https://github.com/COG-UK/dipi-group/blob/official/notices/20210803_asklepian.md) for further information.
+
+***
+
 # 2021-07-17
 ## Majora
 ### Changed
