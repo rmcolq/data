@@ -24,9 +24,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
-# 2021-08-10
+# 2021-08-11
 ## Ocarina
 ### Changed
+* Ocarina 0.43.0 now allows OAuth authentication for `pag suppress`, users will need to update to 0.43.0 for the new configuration to work.
 * Ocarina 0.42.1 uses exit codes as suggested by BSD `sysexits`. This may affect users catching particular non-zero exit codes from the Ocarina application.
 
 ***
