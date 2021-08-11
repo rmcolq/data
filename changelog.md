@@ -24,6 +24,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-08-10
+## Ocarina
+### Changed
+* Ocarina 0.42.1 uses exit codes as suggested by BSD `sysexits`. This may affect users catching particular non-zero exit codes from the Ocarina application.
+
+***
+
 # 2021-08-05
 ## Asklepian
 ### Changed
