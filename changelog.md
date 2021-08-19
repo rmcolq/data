@@ -24,6 +24,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-08-18
+## CLIMB-COVID
+### Changed
+* The head node has moved to different hardware. SSH users and sequence uploaders should be aware that the ESDCA key has been changed.
+    * Users should not be alarmed by the rather alarming message (below) that will be issued on the command line the first time they attempt to log in after this change:
+    ```
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    ```
+    * Follow the instructions in the error message to remove the offending keys from your `known_hosts` file. The line numbers to remove will be listed in the message, **for example** this message would indicate you must remove line 8 from your `known_hosts` file:
+    ```
+    Offending key for IP in /home/user/.ssh/known_hosts:8 <= number after the colon is the line number, this is just an example
+    ```
+
+***
+
 # 2021-08-11
 ## Ocarina
 ### Changed
