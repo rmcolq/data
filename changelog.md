@@ -24,6 +24,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-09-01
+## datapipe
+### Changed
+* Updated memory requirements for publish steps
+* Parallelized minimap2 and alignment steps
+
+***
+
 # 2021-08-18
 ## CLIMB-COVID
 ### Changed
