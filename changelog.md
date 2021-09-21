@@ -24,6 +24,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 
+# 2021-09-21
+## datapipe
+### Changed
+* Added gzipped output files to s3 bucket 
+
+***
+
 # 2021-09-01
 ## datapipe
 ### Changed
