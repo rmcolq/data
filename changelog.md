@@ -23,6 +23,12 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2021-09-23
+## Majora
+### Fixed
+* Majora will now correctly reject biosamples with a `collection_date` after the `received_date` with an error message: "Sample cannot be collected after it was received. Perhaps they have been swapped?"
+
+***
 
 # 2021-09-21
 ## datapipe
