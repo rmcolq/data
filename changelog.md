@@ -23,6 +23,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+
+# 2021-09-21
+## phylopipe
+### Changed
+* Ran with refreshed base tree (~475k tips down from 1.4m tips)
+
+***
 # 2021-09-23
 ## Majora
 ### Fixed
