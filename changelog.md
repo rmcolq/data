@@ -26,19 +26,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # 2021-10-29
 ## datapipe
 ### Changed
-Add flag `--score-N=0` to minimap2 command as part of MSA building step
-Reject all FASTA input sequences with non-IUPAC characters
+* Add flag `--score-N=0` to minimap2 command as part of MSA building step
+* Reject all FASTA input sequences with non-IUPAC characters
 
 # 2021-10-23
 ## datapipe
 ### Changed
-Temporary fix of replacing ? characters in incoming FASTA with Ns
-Add further parallelization and line count checks to handle file corruptions
+* Temporary fix of replacing ? characters in incoming FASTA with Ns
+* Add further parallelization and line count checks to handle file corruptions
 
 # 2021-10-14
 ## phylopipe
 ### Changed
-Attempted switch back to big tree - one off tree published, minus the microreact outputs
+* Attempted switch back to big tree - one off tree published, minus the microreact outputs
 
 # 2021-09-21
 ## phylopipe
