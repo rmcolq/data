@@ -19,6 +19,7 @@ The following DIPI projects are routinely using this CHANGELOG.
 * `Tael` -- MQTT messaging tools
 * `Asklepian` -- Outbound PHE pipeline
 * `CLIMB-COVID` -- metaprojects (eg. status page, data page)
+* `Foel` -- second generation CLIMB-COVID ingest system
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
@@ -30,6 +31,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 # 2021-12-03
+## Foel
+### Added
+* `sample_route` is now a required field in the metadata CSV
+### Changed
+* The minimal `csv_template_version` has been increased to `2` to coincide with the new `sample_route` field. **Submissions using `csv_template_version` 1 will be rejected**.
+
 ## CLIMB-COVID
 ### Changed
 * Automated GISAID submissions are now made every day, with a seven day lag
