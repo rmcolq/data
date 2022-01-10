@@ -27,7 +27,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # 2022-01-06
 ## Elan
 ### Changed
-* Elan will refuse to process FASTA files containing one or more non-IUPAC characters or `-`.
+* Elan will refuse to process FASTA files containing one or more non-IUPAC characters or `-`
 
 ***
 # 2021-12-08
@@ -40,6 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## Foel
 ### Added
 * `sample_route` is now a required field in the metadata CSV
+
 ### Changed
 * The minimal `csv_template_version` has been increased to `2` to coincide with the new `sample_route` field. **Submissions using `csv_template_version` 1 will be rejected**.
 
