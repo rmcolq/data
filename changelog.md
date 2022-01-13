@@ -27,7 +27,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # 2022-01-13
 ## Elan
 ### Changed
-* Elan will now add files, metrics and QC reports as `service-elan`, not `nicholsz`
+* Elan will now add files, metrics and QC reports to Majora as `service-elan`, not `nicholsz`
 
 ***
 # 2022-01-06
