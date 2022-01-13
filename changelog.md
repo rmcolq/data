@@ -29,6 +29,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 * Elan will now add files, metrics and QC reports to Majora as `service-elan`, not `nicholsz`
 
+## Foel
+### Changed
+* Foel will now add empty biosamples, libraries and sequencing runs to Majora as `service-foel`, not `nicholsz`
+
 ***
 # 2022-01-06
 ## Elan
