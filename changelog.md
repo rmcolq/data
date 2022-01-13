@@ -24,6 +24,12 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-01-13
+## Elan
+### Changed
+* Elan will now add files, metrics and QC reports as `service-elan`, not `nicholsz`
+
+***
 # 2022-01-06
 ## Elan
 ### Changed
