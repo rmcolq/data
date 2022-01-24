@@ -24,6 +24,12 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-01-25
+## Elan
+### Changed
+* The FASTA header for the daily `elan.consensus.fasta` will no longer contain the pipe delimited "row number" and will now only contain the Published Artifact Group (PAG) name. The FAI index will therefore only contain the PAG names, making it easier to maintain random access to sequences. Pipe delimited metadata may be added again in future as a sequence comment, rather than as part of the sequence header.
+
+***
 # 2022-01-24
 ## Elan
 ### Deprecated
