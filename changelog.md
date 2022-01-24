@@ -24,6 +24,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-01-24
+## Elan
+### Deprecated
+* After consultation, the "individual QC" outputs are now considered deprecated and will be removed without warning in the near future. A new API service will allow users to fetch QC information as an alternative.
+* The "individual FASTA" outputs are now considered deprecated and will be removed without warning in the immediate future. Users should follow our recommendation and ensure they are using the daily consensus FASTA and the corresponding FAI index to query for sequences as an alternative.
+
+***
 # 2022-01-13
 ## Elan
 ### Changed
