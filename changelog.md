@@ -27,8 +27,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # 2022-01-25
 ## Elan
 ### Changed
+* `/cephfs/covid/artifacts` is the new top-level home for artifacts
+    * Moving the location of the artifacts is necessary to for longer term maintenance of the CLIMB-COVID project and additionally allows us to work toward solving the infamous "big dir" problem.
 * The FASTA header for the daily `elan.consensus.fasta` will no longer contain the pipe delimited "row number" and will now only contain the Published Artifact Group (PAG) name. The FAI index will therefore only contain the PAG names, making it easier to maintain random access to sequences. Pipe delimited metadata may be added again in future as a sequence comment, rather than as part of the sequence header.
   * Python code using `seq_name.split('|')[0]` to parse this header will be unaffected, as the split will succeed, but developers can now just use `seq_name`.
+
+### Added
+* `/cephfs/covid/artifacts/elan/latest/majora.pag_lookup.tsv` now allows users to write scripts to look up (`central_sample_id` AND `run_name`) tuples, OR `pag_name` to resolve the locations of published BAMs
+
+### Deprecated
+* The individual FASTA and BAM directories at `/bham/artifacts/published/fasta` and `/bham/artifacts/published/alignment` will be removed without exception on 2022-01-31. These directories contain hundreds of thousands of symlinks and need to be removed as part of our solution to the "big dir" problem.
+    * FASTA users: As per previous guidance, users should extract their sequences directly from the daily consensus FASTA (`elan.consensus.fasta`), leveraging its index. For users unsure how to do this effectively, we have now made a sequence extraction utility (`seq_extract`) available via [our utilities repository](https://github.com/CLIMB-COVID/utilities).
+    * BAM users: Users must now resolve the location of BAM files using the new `majora.pag_lookup.tsv`, first published today
 
 ## Majora, Ocarina
 ### Changed
