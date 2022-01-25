@@ -25,6 +25,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
 # 2022-01-25
+## Datapipe
+### Changed
+* Created a separate nextflow for geography cleaning steps, moving them earlier in the pipeline. Results should be unaffected.
+
 ## Elan
 ### Changed
 * `/cephfs/covid/artifacts` is the new top-level home for artifacts
