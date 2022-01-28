@@ -24,6 +24,20 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-01-28
+## Elan
+### Removed
+* New FASTA files are no longer linked in `/cephfs/covid/bham/artifacts/published/fasta`
+    * Users should extract their sequences directly from the daily consensus FASTA (`elan.consensus.fasta`), leveraging its index. A sequence extraction utility (`seq_extract`) is available via [our utilities repository](https://github.com/CLIMB-COVID/utilities).
+* New BAM files are no longer linked in `/cephfs/covid/bham/artifacts/published/alignment`
+    * Users must now resolve the location of BAM files using `/cephfs/covid/artifacts/elan/latest/majora.pag_lookup.tsv`
+
+### Changed
+* The files detailing which samples were missing and removed by Elan have moved from `/cephfs/covid/bham/artifacts/published/latest/summary` to `/cephfs/covid/artifacts/elan/latest/`:
+    * Use `elan.missing.ls` for determining why samples were not ingested by Elan (missing metadata or missing files)
+    * Use `elan.quickcheck.ls` for samples rejected by Elan screening (invalid FASTA or BAM)
+
+***
 # 2022-01-25
 ## Datapipe
 ### Changed
