@@ -31,6 +31,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
     * Users should extract their sequences directly from the daily consensus FASTA (`elan.consensus.fasta`), leveraging its index. A sequence extraction utility (`seq_extract`) is available via [our utilities repository](https://github.com/CLIMB-COVID/utilities).
 * New BAM files are no longer linked in `/cephfs/covid/bham/artifacts/published/alignment`
     * Users must now resolve the location of BAM files using `/cephfs/covid/artifacts/elan/latest/majora.pag_lookup.tsv`
+* As a side effect of an update to the publishing pipeline, the `/cephfs/covid/bham/artifacts/published/20220128` directory was accidentally removed. As we are working towards removing these directories anyway, the change will remain and these "dated artifact" directories will no longer be published.
+    * Users can continue to use `/cephfs/covid/bham/artifacts/published/latest` which will contain the latest artifacts to maintain compatibility
 
 ### Changed
 * The files detailing which samples were missing and removed by Elan have moved from `/cephfs/covid/bham/artifacts/published/latest/summary` to `/cephfs/covid/artifacts/elan/latest/`:
