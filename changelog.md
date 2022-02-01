@@ -24,6 +24,13 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-02-01
+## Elan
+### Removed
+* The "individual FASTA" directory at `/bham/artifacts/published/fasta` has been removed
+* The "individual BAM" directory at `/bham/artifacts/published/alignment` has been removed
+
+***
 # 2022-01-28
 ## Elan
 ### Removed
