@@ -24,6 +24,12 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-02-04
+## Foel
+### Changed
+* Foel will now reject BAM submissions if the BAM file is larger than 2 GB (defined as 2e9 bytes) 
+
+***
 # 2022-02-01
 ## Elan
 ### Removed
