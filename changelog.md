@@ -24,6 +24,12 @@ The following DIPI projects are routinely using this CHANGELOG.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ***
+# 2022-02-18
+## Elan
+### Changed
+* The location of individual BAM and BAI files are being migrated over the weekend. While all care is being taken to minimise impact to users, attempts to access individual BAM and BAI files may fail over this weekend period.
+
+***
 # 2022-02-04
 ## Foel
 ### Changed
