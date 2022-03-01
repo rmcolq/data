@@ -29,6 +29,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 * Effective immediately, "Test Majora", lovingly known as "Majora Magenta" has moved URL to `https://majora-test.covid19.climb.ac.uk/`.
     * The test database has not been migrated and users will need to register new accounts and new OAuth applications.
 
+## Datapipe
+### Changed
+* An additional column `ambiguities` providing a pipe separated list of ambiguous regions has been added to metadata outputs including mutations.
+
 ***
 # 2022-02-18
 ## Elan
